@@ -23,6 +23,9 @@ npm install -g jshint
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
 
+# Install screen for tabbed shells
+wget raw.github.com/startup-class/dotfiles/master/.screenrc -O .screenrc
+
 # Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
 sudo apt-add-repository -y ppa:cassou/emacs
