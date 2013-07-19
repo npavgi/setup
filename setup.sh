@@ -23,6 +23,10 @@ npm install -g jshint
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
 
+# Install express for use in node.js
+# http://howtonode.org/getting-started-with-express
+npm install express
+
 # Install screen for tabbed shells
 wget raw.github.com/startup-class/dotfiles/master/.screenrc -O .screenrc
 
